@@ -1,4 +1,6 @@
 /*  NOTES
+Headings :  font-family: 'Gilda Display', serif;
+Body :      font-family: 'Montserrat', sans-serif;      
 
 
 */
@@ -113,3 +115,31 @@ body {
 .tall-100 { min-height: 100vh; }
 
 
+/* Typography font styles———-————————-—*/
+
+
+/* General typography & universal styles——————-———*/
+
+.bg-featured { background-color: #b07cbd;  }
+.bg-dark     { background-color: #3d2c3b;  }
+
+.light-text { color: white; } 
+
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+
+
+
+/* Header & Footer Styles————————————————*/
+
+/* Images & Background Images—————————-—— */
+
+.bg-image {
+    background-color: rgb(199, 199, 199);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}

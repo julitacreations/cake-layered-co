@@ -8,10 +8,10 @@
     <!--  Gridlex for flexbox girds -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     
-    <!-- This is google fonts- Catamaran (200, 400, 500, 800)-->
+    <!-- This is google fonts- Gilda Display, Montserrat (300, 400)-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 
     <!-- This is the fontawesome icon link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,6 +23,162 @@
 
 <!-- This is the body which is all content that will be displayed on website--> 
 <body>
+    <!---- Header -----------> 
+    <header class="gird-spaceAround">
+        <nav class="col-3-middle right">
+            <a href="#"> About </a>
+            <a href="#"> Shop </a>
+          </nav>
+          <div class="col-3-middle centered">
+            <a href="/">
+              <h1 class="logo"> Cake Layered Co </h1>
+            </a>
+          </div>
+          <nav class="col-3-middle">
+            <a href="#"> Delivery </a>
+            <a href="#"> Contact </a>
+          </nav>
+    </header>
+
+    <!---- Header Section -----------> 
+    <section class="bg-image tall-90 padded grid-right">
+        <div class="col-middle right"> 
+            <h2> Layered into <span> Perfection </span> </h2>
+            <a href="#" class="button"> Order Now </a>
+        </div>
+    </section>
+
+    <!---- About Section -----------> 
+    <section class="grid padded bg-featured">
+        <div class="col-6_sm-12-middle padded">
+            <h2> Where sweet dreams are crafted </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla ipsam doloremque optio fugiat culpa. Repudiandae magnam numquam expedita, dolorum similique distinctio praesentium sint ad vero fugit rem explicabo fugiat.</p>
+            <p> Velit libero blanditiis ipsam similique. Autem dolorem, nobis ut magnam nulla hic beatae, amet est aperiam deleniti minima unde fuga. </p>
+            <div class="col-6_sm-12 bg-image tall-50">
+            </div> 
+        </div>
+    </section>
+
+    <!---- About Grid -----------> 
+    <section class="padded grid center">
+        <h2 class="col-12"> Our cakes are </h2> 
+        <div class="col-4_xs-12 padded">
+            <div class="col-4_md-6_xs-12 padded-2">
+                <img src="/images/cake-layered-co-6.jpg" class="shape-teardrop">
+            </div>
+            <h3> Handcrafted </h3>
+        </div>
+        <div class="col-4_xs-12 padded">
+            <div class="col-4_md-6_xs-12 padded-2">
+                <img src="/images/cake-layered-co-7.jpg" class="shape-teardrop">
+            </div>
+            <h3> Unique </h3>
+        </div>
+        <div class="col-4_xs-12 padded">
+            <div class="col-4_md-6_xs-12 padded-2">
+                <img src="/images/cake-layered-co-5.jpg" class="shape-teardrop">
+            </div>
+            <h3> High Quality </h3>
+        </div>
+    </section>
+
+    <!---- Gallery Section -----------> 
+    <section class="bg-featured center">
+        <h2> Customer Favourites </h2> 
+
+        <!---- Section 1 ----------->
+        <div class="gallery grid-spaceAround">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <div class="bg-image"> </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-image"> </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+    
+    <section>
+        <!---- Section 2 -----------> 
+        <div class="gallery grid-spaceAround">
+            <div class="col-2"></div>
+            <div class="col-5">
+                <div class="bg-image"> </div>
+            </div>
+            <div class="col-3">
+                <div class="bg-image"> </div>
+            </div>
+            <div class="col-2"></div>
+        </div>  
+    </section>
+
+    <!------------- Review/ Testimonial section  ----------->
+    <section class="padded-lg grid">
+        <div class="col-1 text-right"> 
+            <span class="quote-icon"> “ </span>
+        </div>
+        <div class="col-10 center"> 
+            <p class="medium-text"> I ordered a cake for my daughters sweet 16 and everyone could not stop talking about how they love the gluten-free and vegan option we ordered. And the design of the cake! You really went above and beyond our expecations! </p>
+            <p class="subtitle"> - A very happy customer </p>
+        </div>
+        <div class="col-1"> 
+            <span class="quote-icon"> ” </span>    
+        </div>
+    </section>
+
+    <!------------- Shop Gallery  ----------->
+    <section class="center padded">
+        <h2> Shop </h2>
+
+        <div class="gallery grid">
+            <div class="col-8">
+                <div class="bg-featured">
+                    <h3> Irresistible </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, officiis ut illo ullam mollitia qui? Ipsum quidem, magnam perferendis modi atque nisi? Doloribus, quasi laudantium necessitatibus ipsam vel explicabo dicta? </p>
+                    <a href="#" class="button"> Food </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-image bg-image-pancake bg-pos-l square margin-b-unique"> </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-image bg-image-bowl square margin-b-unique"> </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-image bg-image-drink square margin-b-unique"> </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-image bg-image-bowl bg-pos-l square margin-b-unique"> </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------- Instagram Gallery  ----------->
+    <section class="center padded">
+        <h4> @cakelayeredco </h4>
+
+        <div class="gallery grid">
+            <div class="col-3">
+                <div class="bg-image bg-image-pancake bg-pos-l square margin-b-unique"> </div>
+            </div>
+            <div class="col-3">
+                <div class="bg-image bg-image-bowl square margin-b-unique"> </div>
+            </div>
+            <div class="col-3">
+                <div class="bg-image bg-image-drink square margin-b-unique"> </div>
+            </div>
+            <div class="col-3">
+                <div class="bg-image bg-image-bowl bg-pos-l square margin-b-unique"> </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
 </body>
 
 </html>

@@ -126,7 +126,6 @@ h2, h3, h4, h5, h6 {
 	margin-bottom: 1.2rem;
 }
 
-
 h2 span {
     display: block;
     font-size: 9.5vw;
@@ -138,11 +137,19 @@ h2 span {
 
 }
 
+h2 {
+    font-size: 2.2rem;
+}
+
 
 
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -219,3 +226,4 @@ header {
 }
 
 .bg-image-banner { background-image: url('images/cake-layered-co-11.jpg'); }
+.bg-image-5 { background-image: url('images/cake-layered-co-5.jpg'); }

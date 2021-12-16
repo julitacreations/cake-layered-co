@@ -121,14 +121,30 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
+    font-family: 'Gilda Display', serif;
 	line-height: 1.1;
 	margin-bottom: 1.2rem;
 }
+
+
+h2 span {
+    display: block;
+    font-size: 9.5vw;
+}
+
+.lg-heading {
+    font-size: 5.5vw;
+    line-height: 0.9;
+
+}
+
+
 
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
 }
+
 
 
 
@@ -152,6 +168,22 @@ a {
     color: inherit;
   }
 
+.button {
+    color: white;
+    border: 1px solid #8E7483;
+    border-radius: 1.5rem;
+    background-color:#8E7483;
+    padding: 0.7rem 1.5rem;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    color: #8E7483;
+    background-color: #c6d8cf;
+    border: 1px solid #c6d8cf;
+}
+
 
 
 /* Header & Footer Styles————————————————*/
@@ -163,7 +195,7 @@ header a {
     padding: 0.5rem;
 }
 header a:hover {
-    color: #cad4cf;
+    color: #c6d8cf;
 }
 
 header {
@@ -172,8 +204,7 @@ header {
 
 .logo h1 {
     font-family: 'Gilda Display', serif;
-    font-size: 2.7rem;
-    margin-bottom: 0.8rem; 
+    font-size: 2.5rem;
 }
 
 
@@ -187,4 +218,4 @@ header {
     background-repeat: no-repeat;
 }
 
-bg-image-banner { background-image: url('images/cake-layered-co-11.jpg'); }
+.bg-image-banner { background-image: url('images/cake-layered-co-11.jpg'); }

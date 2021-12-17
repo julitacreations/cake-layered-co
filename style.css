@@ -105,6 +105,9 @@ body {
 
 /* Height Classes */
 
+.tall-40 { min-height: 40vh; }
+.tall-45 { min-height: 45vh; }
+
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
 .tall-70 { min-height: 70vh; }
@@ -164,6 +167,8 @@ p:last-child {
 
 .light-text { color: white; } 
 
+.medium-text   { font-size: 2rem;  }
+
 
 .left   { text-align: left; }
 .center { text-align: center; }
@@ -192,6 +197,13 @@ a {
     background-color: #c6d8cf;
     border: 1px solid #c6d8cf;
 }
+
+.subtitle { 
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #baaab3;
+}
+
 
 
 
@@ -241,3 +253,31 @@ header {
 
 .shape-rounder { border-radius: 10rem; }
 .shape-round-corner { border-radius: 1.5rem; }
+
+/* Aspect Ratio  */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 59%; }
+.landscape-wide { padding-bottom: 56%; }
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+.bg-pos-unique { background-position: 50% 50%; }
+
+
+.gallery [class*="col-"] {
+  padding: 0.5%;
+}
+
+
+/*-- Testimonial Block -------------------*/
+.quote-icon {
+    color: #baaab3;
+    font-size: 6rem;
+    display: inline-block;
+    line-height: 1;
+ }

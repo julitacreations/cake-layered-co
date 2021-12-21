@@ -105,9 +105,9 @@ body {
 
 /* Height Classes */
 
+.tall-30 { min-height: 30vh; }
 .tall-40 { min-height: 40vh; }
 .tall-45 { min-height: 45vh; }
-
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
 .tall-70 { min-height: 70vh; }
@@ -295,6 +295,7 @@ span a {
 .bg-image-9 { background-image: url('images/cake-layered-co-9.jpg'); }
 .bg-image-10 { background-image: url('images/cake-layered-co-10.jpg'); }
 
+
 .shape-rounder { border-radius: 10rem; }
 .shape-round-corner { border-radius: 1.5rem; }
 
@@ -316,6 +317,31 @@ span a {
 .gallery [class*="col-"] {
   padding: 0.5%;
 }
+
+/* Image Positions --*/
+.relative { position: relative; }
+
+.position-1 {
+    position: relative;
+    bottom: -6rem;
+    left: 0;
+}
+.position-2  {
+    position: relative;
+    bottom: -5rem;
+    right: -1rem;
+}
+.position-3  {
+    position: relative;
+    left: -3rem;
+    top: 1rem;
+}
+.position-4  {
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+}
+
 
 
 /*-- Testimonial Block -------------------*/

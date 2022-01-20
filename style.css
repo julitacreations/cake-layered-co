@@ -323,24 +323,26 @@ span a {
 
 .position-1 {
     position: relative;
-    bottom: -6rem;
+    bottom: -20%;
     left: 0;
+    z-index: 1;
 }
 .position-2  {
     position: relative;
-    bottom: -5rem;
-    right: -1rem;
+    bottom: -8%;
+    right: -5%;
 }
 .position-3  {
     position: relative;
-    left: -3rem;
-    top: 1rem;
+    left: -12%;
+    top: 8%;
 }
 .position-4  {
     position: relative;
-    top: -2rem;
-    left: -2rem;
+    top: -22%;
+    left: -10%;
 }
+
 
 
 

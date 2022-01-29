@@ -303,6 +303,11 @@ span a {
 .shape-rounder { border-radius: 10rem; }
 .shape-round-corner { border-radius: 1.5rem; }
 
+.capped-width {
+    max-width: 1000px;
+    margin: auto;
+}
+
 /* Aspect Ratio  */
 .portrait-tall { padding-bottom: 175%; }
 .portrait { padding-bottom: 125%; }

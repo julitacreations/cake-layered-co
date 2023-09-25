@@ -50,153 +50,58 @@
 
 
     <!--Contact Order Form ------>
-    <form>
-        <label for="source" class="source-sm"> Selected Cake </label>
-            <select id="source" name="source" class="form-select source-sm">
-                <option value="instagram">The Original</option>
-                <option value="referral">The Mini Stack</option>
-                <option value="ad">Layer Love</option>
-                <option value="ad">The Celebration</option>
-            </select> <br>
+    <section class="padded">
+        <div class="center">
+            <h3 class="big-text"> Time to celebrate </h3>
+            <p> Fill in the form with all required details and let us know of <br> any special requests or wishes. We aim to accomodation reasonable requests where we can.</p>
+            <p> Have a quick question? call us on <a href="#">Tel: 050505050505 </a> </p>
+            <p> Or email us at <a href="#">Email: cakelayerdco@email.com </a> </p>
+        </div>
 
-        <label for="source" class="source-sm"> Selected Falvour </label>
-            <select id="source" name="source" class="form-select source-sm">
-                <option value="instagram">Carrot</option>
-                <option value="referral">Red Velvet</option>
-                <option value="ad">Victoria Sponge</option>
-                <option value="ad">Chocolate</option>
-            </select> <br>
+        <div class="padded-lg padded-t">
+            <form class="grid">
+                <div class="col-6 padded-r-1">
+                    <label for="select-cake" class="uppercase"> Selected Cake </label>
+                        <select id="select-cake" name="select-cake" class="form-select">
+                            <option value="instagram">The Original</option>
+                            <option value="referral">The Mini Stack</option>
+                            <option value="ad">Layer Love</option>
+                            <option value="ad">The Celebration</option>
+                        </select> 
+                    </div>
+                    <div class="col-6 padded-l-1">
+                    <label for="cake-flavour" class="uppercase">Cake Flavour</label>
+                    <select id="cake-flavour" name="cake-flavour" class="form-select">
+                        <option value="instagram">Carrot</option>
+                        <option value="referral">Red Velvet</option>
+                        <option value="ad">Victoria Sponge</option>
+                        <option value="ad">Chocolate</option>
+                    </select> <br>
+                </div>   
+
+                <input type="text" name="_name" id="_name" placeholder="Name*" required/>
             
-        <input type="text" name="_name" id="_name" placeholder="Name*"/>
-      
-        <input type="email" name="_replyto" id="_replyto" placeholder="Email*"/>
+                <input type="email" name="_replyto" id="_replyto" placeholder="Email*" required/>
 
-        <input type="number" name="_replyto" id="_replyto" placeholder="Tel Number*"/>
-        
-        <input type="text" name="_date" id="_date" placeholder="Delivery or Pick-up date"/>
-      
-        <textarea name="message" id="message" placeholder="Any additional information or requests..."></textarea>
-      
-        <label for="source" class="source-sm"> How did you hear about us? </label>
-            <select id="source" name="source" class="form-select source-sm">
-                <option value="instagram">Instagram</option>
-                <option value="referral">Referral</option>
-                <option value="ad">Advertisement</option>
-            </select> <br>
-        
-        <button type="submit"> ENTER </button>
-        
-    </form> 
+                <input type="tel" name="phone" id="phone" placeholder="Tel Number*" required/>
+                
+                <input type="text" name="_date" id="_date" placeholder="Delivery or Pick-up date"/>
+            
+                <textarea name="message" id="message" placeholder="Any additional information or requests..."></textarea>
+                
+                <button type="submit"> Send Order </button>
+            </form> 
+        </div>
+
+        <div class="padded-lg padded-t-0 center small-text">
+            <h5> Your Inquiry must be placed 72hours in advance. We’ll get back to you within 24hours. Please leave as much information about your event as possible, so we are able to assist as quickly as possible. 
+            </h5>
+        </div>
+
+    </section>  
 
 
 
-    <!---- About Section -----------> 
-    <section class="grid padded bg-featured">
-        <div class="col-6_sm-12-middle padded">
-            <h2> Where sweet dreams are crafted </h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla ipsam doloremque optio fugiat culpa. Repudiandae magnam numquam expedita, dolorum similique distinctio praesentium sint ad vero fugit rem explicabo fugiat.</p>
-            <p> Velit libero blanditiis ipsam similique. Autem dolorem, nobis ut magnam nulla hic beatae, amet est aperiam deleniti minima unde fuga. </p>
-            <a href="#" class="button"> Our Story </a>
-        </div>
-        <div class="col-6_sm-12 bg-image bg-image-5 tall-50 shape-round-corner">
-        </div> 
-    </section>
-
-    <!---- About Grid -----------> 
-     <!---- <section class="padded grid center">
-        <h2 class="col-12"> Our cakes are </h2> 
-        <div class="col-4_xs-12 padded">
-            <div class="col-4_md-6_xs-12 padded-1">
-                <img src="/images/cake-layered-co-6.jpg" class="shape-rounder">
-            </div>
-            <h3> Handcrafted </h3>
-        </div>
-        <div class="col-4_xs-12 padded">
-            <div class="col-4_md-6_xs-12 padded-1">
-                <img src="/images/cake-layered-co-7.jpg" class="shape-rounder">
-            </div>
-            <h3> Unique </h3>
-        </div>
-        <div class="col-4_xs-12 padded">
-            <div class="col-4_md-6_xs-12 padded-1">
-                <img src="/images/cake-layered-co-6.jpg" class="shape-rounder">
-            </div>
-            <h3> Personalised </h3>
-        </div>
-    </section> ----> 
-
-    <!---- Gallery Section -----------> 
-       
-    <section class="padded padded-b-0 relative">
-        <h2 class="center"> Cakes for your special occasion </h2> 
-        <!---- Section 1 ----------->
-        <div class="gallery grid tall-30">
-            <div class="col-1"></div>
-            <div class="col-3">
-                <div class="bg-image bg-image-8 portrait shape-round-corner position-1"> </div>
-            </div>
-            <div class="col-6">
-                <div class="bg-image bg-image-banner landscape-wide shape-round-corner position-2"> </div>
-            </div>
-            <div class="col-2"></div>
-        </div>
-    </section>
-    
-    <section class="relative padded padded-t-0">
-        <!---- Section 2 -----------> 
-        <div class="gallery grid tall-30">
-            <div class="col-3"></div>
-            <div class="col-5">
-                <div class="bg-image bg-image-5 position-3 landscape-wide shape-round-corner"> </div>
-            </div>
-            <div class="col-3">
-                <div class="bg-image bg-image-2 position-4 square shape-round-corner"> </div>
-            </div>
-            <div class="col-1"></div>
-        </div>  
-    </section>
-
-    <!------------- Review/ Testimonial section  ----------->
-    <section class="padded-lg grid bg-dark light-text">
-        <div class="col-1 right"> 
-            <span class="quote-icon"> “ </span>
-        </div>
-        <div class="col-10 center"> 
-            <p class="medium-text"> I ordered a cake for my daughter's sweet 16 and everyone could not stop talking about how they love the gluten-free and vegan option we ordered. And the design of the cake! You really went above and beyond our expecations! </p>
-            <p class="subtitle"> - A very happy customer </p>
-        </div>
-        <div class="col-1"> 
-            <span class="quote-icon"> ” </span>    
-        </div>
-    </section>
-
-    <!------------- Shop selection section  ----------->
-    <section class="padded center">
-        <h2> Selection </h2>
-
-        <div class="gallery grid">
-            <div class="col-12 bg-featured shape-round-corner shop-text-block">
-                <h3 class="padded padded-b-0"> Irresistible </h3>
-                <p class="padded-lg padded-t-1 padded-b"> Browse our cake selection for your unique occassion. 
-                    From small gatherings with tiny individuals cakes, layered into a eye-catching attraction, to smaller cakes for the little celebrations. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, officiis ut illo ullam mollitia qui?  </p>
-                <div class="padded-b">
-                    <a href="#" class="button"> Order Now </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="gallery grid">
-            <div class="col-4">
-                <div class="bg-image bg-image-3 portrait shape-round-corner"> </div>
-            </div>
-            <div class="col-4">
-                <div class="bg-image bg-image-10 portrait bg-pos-t shape-round-corner"> </div>
-            </div>
-            <div class="col-4">
-                <div class="bg-image bg-image-9 portrait shape-round-corner"> </div>
-            </div>
-        </div>
-    </section>      
 
 
     <!------------- Instagram Gallery  ----------->

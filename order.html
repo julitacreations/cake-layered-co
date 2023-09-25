@@ -3,7 +3,7 @@
 <!-- This is the head of html where we add external recourses and metadata -->
 <head>
     <!-- This title shows up in the browser tab-->
-    <title> Cake Layered Co Home </title>
+    <title> Order your Cake Layered Cake </title>
     
     <!--  Gridlex for flexbox girds -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
@@ -43,10 +43,52 @@
     <!---- Header Banner Section -----------> 
     <section class="bg-image bg-image-banner tall-90 padded grid-right uppercase bg-overlay bg-overlay-gradient">
         <div class="col-9-bottom right"> 
-            <h2 class="lg-heading"> Layered into <span> Perfection </span> </h2>
-            <a href="selection.html" class="button"> Order Now </a>
+            <h2 class="lg-heading"> Place your <span> Cake Order </span> </h2>
         </div>
     </section>
+
+
+
+    <!--Contact Order Form ------>
+    <form>
+        <label for="source" class="source-sm"> Selected Cake </label>
+            <select id="source" name="source" class="form-select source-sm">
+                <option value="instagram">The Original</option>
+                <option value="referral">The Mini Stack</option>
+                <option value="ad">Layer Love</option>
+                <option value="ad">The Celebration</option>
+            </select> <br>
+
+        <label for="source" class="source-sm"> Selected Falvour </label>
+            <select id="source" name="source" class="form-select source-sm">
+                <option value="instagram">Carrot</option>
+                <option value="referral">Red Velvet</option>
+                <option value="ad">Victoria Sponge</option>
+                <option value="ad">Chocolate</option>
+            </select> <br>
+            
+        <input type="text" name="_name" id="_name" placeholder="Name*"/>
+      
+        <input type="email" name="_replyto" id="_replyto" placeholder="Email*"/>
+
+        <input type="number" name="_replyto" id="_replyto" placeholder="Tel Number*"/>
+        
+        <input type="text" name="_date" id="_date" placeholder="Delivery or Pick-up date"/>
+      
+        <textarea name="message" id="message" placeholder="Any additional information or requests..."></textarea>
+      
+        <label for="source" class="source-sm"> How did you hear about us? </label>
+            <select id="source" name="source" class="form-select source-sm">
+                <option value="instagram">Instagram</option>
+                <option value="referral">Referral</option>
+                <option value="ad">Advertisement</option>
+            </select> <br>
+        
+        <button type="submit"> ENTER </button>
+        
+    </form> 
+
+
 
     <!---- About Section -----------> 
     <section class="grid padded bg-featured">
@@ -179,7 +221,7 @@
 
      <!------------- Footer ----------->
 
-     <footer class="grid sm-center bg-dark light-text padded padded-b-0">
+    <footer class="grid sm-center bg-dark light-text padded padded-b-0">
         <!--Info column-->
         <div class="col-7_sm-12">
             <h3> Cake Layered Co </h3>
@@ -226,7 +268,7 @@
             </a>
           </nav>
         </div>
-      </footer>
+    </footer>
 
 
 

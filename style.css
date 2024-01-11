@@ -26,6 +26,7 @@ Colors: featured:  #F0EAED
 img { max-width: 100%; }
 
 
+
 /*  Temporary Styles */
 /*
 * {
@@ -189,6 +190,7 @@ p:last-child {
 .center { text-align: center; }
 .right  { text-align: right; }
 
+
 .uppercase { text-transform: uppercase;}
 
 
@@ -223,6 +225,7 @@ a {
     font-size: 0.8rem;
     opacity: 0.8;
 }
+
 
 
 
@@ -397,7 +400,12 @@ span a {
     left: -10%;
 }
 
-
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the column */
+}
 
 
 /*-- Testimonial Block -------------------*/
@@ -523,7 +531,8 @@ form button:hover {
     .md-tall-70 { min-height: 70vh; }
     .md-tall-80 { min-height: 80vh; }
 
-    h2          { font-size: 3.3rem;}
+    h2              { font-size: 3.3rem;}
+    .medium-text    { font-size: 1.8rem;  }
 
 }
 
@@ -562,8 +571,11 @@ form button:hover {
 
     .logo h1  { font-size: 2rem; }
     h2        { font-size: 3rem;}
+    h3        { font-size: 1.5rem;}
 
-    .sm-medium-text { font-size: 1.8rem;}
+    .medium-text    { font-size: 1.7rem;  }
+
+    .flex-flip-sm { flex-direction: column-reverse; }
      
 }
 
@@ -584,9 +596,9 @@ form button:hover {
         line-height: 1.1;
     }
 
-    h2 { font-size: 2.1rem;}
-
-    .xs-medium-text {font-size: 1.4rem;}
+    h2              { font-size: 2.1rem;}
+    h3              { font-size: 1.3rem;}
+    .medium-text    { font-size: 1.4rem;  }
 
     .xs-subtle p {
         font-size: 0.6rem;
@@ -595,6 +607,11 @@ form button:hover {
 
     .xs-tall-60 { min-height: 60vh; }
     .xs-tall-70 { min-height: 70vh; }
+
+    .xs-padded-0       { padding: 0;}
+
+    
+    
 }
 
 

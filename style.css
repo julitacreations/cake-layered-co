@@ -259,6 +259,9 @@ footer a {
     padding: 0 0.1rem;
     margin: 0.2rem;
 }
+footer a:hover {
+    color: #c6d8cf;
+}
 
 footer h3 {
     font-size: 1.6rem;
@@ -533,6 +536,7 @@ form button:hover {
 
     h2              { font-size: 3.3rem;}
     .medium-text    { font-size: 1.8rem;  }
+    .big-text       { font-size: 3.1rem;}
 
 }
 
@@ -569,10 +573,10 @@ form button:hover {
         background-position: 25% 50%;
      }
 
-    .logo h1  { font-size: 2rem; }
-    h2        { font-size: 3rem;}
-    h3        { font-size: 1.5rem;}
-
+    .logo h1        { font-size: 2rem; }
+    h2              { font-size: 3rem;}
+    h3              { font-size: 1.5rem;}
+    .big-text       { font-size: 2.8rem;}
     .medium-text    { font-size: 1.7rem;  }
 
     .flex-flip-sm { flex-direction: column-reverse; }
@@ -596,19 +600,23 @@ form button:hover {
         line-height: 1.1;
     }
 
-    h2              { font-size: 2.1rem;}
+    h2              { font-size: 2.2rem;}
     h3              { font-size: 1.3rem;}
     .medium-text    { font-size: 1.4rem;  }
-
+    .big-text       { font-size: 1.8rem;}
     .xs-subtle p {
         font-size: 0.6rem;
         opacity: 0.8;
     }
 
+    .xs-tall-50 { min-height: 50vh; }
     .xs-tall-60 { min-height: 60vh; }
     .xs-tall-70 { min-height: 70vh; }
 
     .xs-padded-0       { padding: 0;}
+
+    .bg-dark-xs     { background-color: #8E7483;  }
+    .light-text-xs  { color: white; } 
 
     
     

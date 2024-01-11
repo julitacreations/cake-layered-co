@@ -146,7 +146,7 @@ h2 span {
 }
 
 h2 {
-    font-size: 4.4rem;
+    font-size: 4.2rem;
     line-height: 1;
 }
 h3 {
@@ -519,7 +519,11 @@ form button:hover {
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
+    .md-tall-60 { min-height: 60vh; }
+    .md-tall-70 { min-height: 70vh; }
     .md-tall-80 { min-height: 80vh; }
+
+    h2          { font-size: 3.3rem;}
 
 }
 
@@ -557,7 +561,7 @@ form button:hover {
      }
 
     .logo h1  { font-size: 2rem; }
-    h2 { font-size: 3rem;}
+    h2        { font-size: 3rem;}
 
     .sm-medium-text { font-size: 1.8rem;}
      
@@ -589,6 +593,8 @@ form button:hover {
         opacity: 0.8;
     }
 
+    .xs-tall-60 { min-height: 60vh; }
+    .xs-tall-70 { min-height: 70vh; }
 }
 
 
